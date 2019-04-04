@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
 planeteer_calls = ["earth", "wind", "fire"]
-  planeteer_calls.map { |name| name.capitalize + "!"}
+  planeteer_calls.each do { |name| name.capitalize + "!"}
 end
 
 
