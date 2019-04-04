@@ -13,7 +13,7 @@ end
 
 def planeteer_calls (array)
   i = 0
-array.any? {|i| i.lenght > 4 }
+if array.any? {|i| i.lenght > 4 }
 return true
 else
 return false
