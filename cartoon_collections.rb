@@ -11,8 +11,8 @@ end
 
 
 
-def planeteer_calls (array)
-array.any? {|i| i.length > 4 }
+def planeteer_calls (long_calls)
+long_calls? {|call| call.length > 4 }
 end
 
 
