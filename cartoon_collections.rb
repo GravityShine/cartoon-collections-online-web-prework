@@ -12,9 +12,8 @@ end
 
 
 
-def planeteer_calls (calls)
-calls = ["axe", "earth", "wind", "fire", "water", "heart"]
-
+def planeteer_calls (array)
+array
 end
 
 
