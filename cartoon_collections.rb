@@ -11,8 +11,13 @@ end
 
 
 
-def planeteer_calls (planeteer_calls)
-
+def planeteer_calls (array)
+  i = 0
+array.any? {|i| i.lenght > 4 }
+return true
+else
+return false
+i = i + 1
 end
 
 
