@@ -11,7 +11,7 @@ end
 
 
 
-def planeteer_calls (long_calls)
+def long_planeteer_calls(long_calls)
 long_calls? {|call| call.length > 4 }
 end
 
