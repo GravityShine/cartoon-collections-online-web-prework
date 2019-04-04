@@ -13,7 +13,7 @@ end
 
 
 def planeteer_calls (planeteer_calls)
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+planeteer_calls = ["earth", "wind", "fire"]
 end
 
 
