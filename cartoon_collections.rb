@@ -5,9 +5,8 @@ dwarves.each_with_index do |dwarves, index|
 end
 end
 
-def summon_captain_planet(planeteer_calls)
-planeteer_calls = ["earth", "wind", "fire"]
-  planeteer_calls.map! { |name| name.capitalize + "!"}
+def summon_captain_planet(array)
+  array.map! { |name| name.capitalize + "!"}
 end
 
 
