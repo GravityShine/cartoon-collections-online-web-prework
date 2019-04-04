@@ -12,13 +12,9 @@ end
 
 
 
-def planeteer_calls
+def planeteer_calls (calls)
 calls = ["axe", "earth", "wind", "fire", "water", "heart"]
-if calls.any? {|calls| calls.length > 4}
-return true
-else
-return false
-end
+
 end
 
 
